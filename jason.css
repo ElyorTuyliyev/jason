@@ -1,0 +1,399 @@
+body {
+  margin: 0;
+}
+
+/* start header style */
+
+.content {
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+.sub-media {
+  display: flex;
+  justify-content: space-around;
+  height: 50px;
+  align-items: center;
+}
+
+.nav-wrapper {
+  display: flex;
+  align-items: center;
+  height: 50px;
+}
+
+.wrapper-ulist {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  margin: 0;
+  font-size: 13px;
+  padding-left: 0px;
+  overflow: hidden;
+}
+
+.wrapper-list {
+  margin-right: 14px;
+}
+
+.wrapper-link {
+  text-decoration: none;
+  color: white;
+  position: relative;
+}
+
+.bac-hover {
+  display: none;
+  background-color: white;
+  min-width: 90px;
+  position: absolute;
+  border-radius: 5px;
+}
+
+.bac-link {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  margin-bottom: 10px;
+}
+.bac-hover a:hover {
+  background-color: #f1f1f1;
+  border-radius: 5px;
+}
+
+.wrapper-list:hover .bac-hover {
+  display: block;
+}
+
+.flax {
+  display: flex;
+  align-items: center;
+  height: 50px;
+}
+
+.writiem-ulist {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  margin: 0;
+  font-size: 13px;
+  padding-left: 0px;
+}
+
+.writiem-list {
+  margin-right: 20px;
+}
+
+.writiem-links {
+  text-decoration: none;
+  color: white;
+  border: 1px solid;
+  border-radius: 4px;
+  padding: 4px;
+}
+
+.writiem-links:hover {
+  color: black;
+  background-color: white;
+}
+.writiem-link {
+  text-decoration: none;
+  color: white;
+}
+
+/* the end header style */
+
+/*start style main*/
+
+/*
+::after{
+    content: "";
+    border-top: 12px solid black;
+    border-bottom: 12px solid blue;
+    border-left: 12px solid red;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+}*/
+
+.custom_bg {
+  display: flex;
+  justify-content: center;
+  height: 46px;
+  background-color: white;
+}
+
+#new-shortcut {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  font-size: 13px;
+  padding: 0;
+  margin: 0;
+  align-items: center;
+}
+.list-shortcut {
+  margin-right: 25px;
+  position: relative;
+}
+
+.list-shortcut a::after {
+  content: "";
+  border-top: 8px solid transparent;
+  border-bottom: 8px solid black;
+  border-left: 8px solid transparent;
+  position: absolute;
+  top: -5px;
+  left: 40px;
+  z-index: 1;
+  transform: rotate(45deg);
+}
+
+.list-shortcut1 {
+  margin-right: 25px;
+  position: relative;
+}
+
+.list-shortcut1 a::after {
+  content: "";
+  border-top: 8px solid transparent;
+  border-bottom: 8px solid black;
+  border-left: 8px solid transparent;
+  position: absolute;
+  top: -5px;
+  left: 42px;
+  z-index: 1;
+  transform: rotate(45deg);
+}
+
+.list-shortcut2 {
+  margin-right: 25px;
+  position: relative;
+}
+.list-shortcut2 a::after {
+  content: "";
+  border-top: 8px solid transparent;
+  border-bottom: 8px solid black;
+  border-left: 8px solid transparent;
+  position: absolute;
+  top: -5px;
+  left: 50px;
+  z-index: 1;
+  transform: rotate(45deg);
+}
+
+.list-shortcut3 {
+  margin-right: 25px;
+  position: relative;
+}
+
+.list-shortcut3 a::after {
+  content: "";
+  border-top: 8px solid transparent;
+  border-bottom: 8px solid black;
+  border-left: 8px solid transparent;
+  position: absolute;
+  top: -5px;
+  left: 70px;
+  z-index: 1;
+  transform: rotate(45deg);
+}
+
+.link-shortcut {
+  text-decoration: none;
+  color: black;
+}
+
+.link-shortcut:hover {
+  color: rgba(33, 31, 31, 0.751);
+}
+
+/* aside  */
+.aside-home {
+  width: 435px;
+  height: 200vh;
+  float: left;
+}
+.aside-paragrif {
+  margin-left: 100px;
+}
+.Jason-Statham-img {
+  margin-top: 20px;
+  border-radius: 5px;
+}
+.icons-aside {
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+.fa-brands {
+  margin-right: 15px;
+  font-size: 25px;
+  color: #262626;
+}
+.text-100 {
+  width: 300px;
+  height: 10vh;
+  background-color: #e3e3e3;
+  border-radius: 10px;
+}
+.hundert {
+  padding-top: 15px;
+  padding-left: 20px;
+}
+.text-11 {
+  background-color: #d9d9d9;
+  border-radius: 0 0 10px 10px;
+  padding-left: 20px;
+  padding-bottom: 6px;
+  padding-top: 5px;
+}
+.lock {
+  text-decoration: none;
+  color: white;
+}
+.kirish {
+  margin-top: 30px;
+  padding: 10px 30px;
+  background-color: #01b4e4;
+  border: none;
+  border-radius: 50px;
+}
+.klavitora {
+  padding-top: 30px;
+}
+.kaybord {
+  text-decoration: none;
+  color: #979797;
+  font-size: 18px;
+}
+.kaybord:hover {
+  color: #2259e4;
+}
+/* aside finish */
+
+/* main style */
+.main-home {
+  width: 1000px;
+
+  float: left;
+}
+h1 {
+  font-size: 38px;
+}
+.books-home {
+  display: flex;
+  -webkit-overflow-scrolling: touch;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  gap: 5px;
+}
+.books-link {
+  margin-left: 25px;
+  text-decoration: none;
+  color: black;
+}
+.books-link:hover {
+  color: blue;
+}
+.Актёрское {
+  margin-top: 30px;
+}
+.Актёрское a {
+  text-decoration: none;
+  color: black;
+}
+.all-buttom {
+  padding-left: 470px;
+  padding-right: 30px;
+}
+
+/* main style finish */
+
+.main-section {
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
+  margin: 10px;
+  width: 50%;
+}
+.main-section__nav {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+}
+.main-section__form {
+  margin-top: 15px;
+}
+.main-section__option {
+  text-decoration: none;
+}
+table {
+  width: 100%;
+  border: 0.1px solid lightgray;
+}
+.table-data {
+  float: left;
+  padding-left: 20px;
+  margin: 10px;
+}
+.table-data__as {
+  float: left;
+  margin-left: 180px;
+  margin-bottom: 10px;
+  margin-top: -15px;
+}
+.year {
+  margin-left: 35px;
+}
+.main-section__header {
+  margin-left: 10px;
+}
+.blur-line {
+  display: inline-block;
+  position: relative;
+  top: -2px;
+  margin-left: 5px;
+  width: 80px;
+  height: 4px;
+  background-color: gray;
+  filter: blur(4px);
+  border-radius: 4px;
+}
+strong:hover {
+  cursor: pointer;
+  color: rgb(5, 211, 211);
+}
+.main-section__span {
+  color: gray;
+}
+
+/* footer start style*/
+.foter {
+  height: 40vh;
+  background-color: #032541;
+}
+
+.rounded {
+  display: block;
+  background-color: white;
+  padding: 8px 16px;
+  border-radius: 5px;
+  font-size: 20px;
+  text-decoration: none;
+  color: lightblue;
+}
+
+#flex {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+li a {
+  text-decoration: none;
+  color: white;
+}
+
+ul {
+  list-style: none;
+}
